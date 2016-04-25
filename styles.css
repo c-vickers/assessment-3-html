@@ -1,0 +1,11 @@
+input {
+	background-color: #FFFC9C;
+}
+
+#lastname {
+	font-weight: bold;
+}
+
+p {
+	border: 2px dotted black;
+}

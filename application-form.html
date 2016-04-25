@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Skills-HTML-CSS</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+    	<!--Large Heading -->
+    	<h1>Welcome to My Imaginary Job Site</h1>
+    	<!--Explanatory Text -->
+    	<p>This is a non-real job site where you can submit your name for a job that doesn't exist. Don't worry, your info is safe with me! I promise I won't remember it. (Because I haven't set up a session or cookies...and haven't learned about databases yet.) Please enter your first name, last name and requested salary and select the position you're interested. Then hit submit!</p>
+    	<!--form -->
+        <form action="./application.html" method="POST">
+        	First Name:<input type="text" name="firstname"><br>
+        	<label id="lastname">Last Name:</label><input type="text" name="lastname"><br>
+        	Requested Salary:<input type="text" name="salary"><br>
+        	Requested Position:<select name="position">
+        		<option value="softwareeng">Software Engineer</option>
+        		<option value = "qaeng">QA Engineer</option>
+        		<option value="prodman">Product Manager</option>
+        	</select><br>
+        	<input type="submit">
+        </form>
+    </body>
+</html>
